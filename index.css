@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: rgb(10, 10, 10);
+}
+.d1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:0svb;
+}
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    text-decoration: none;
+    background:rgb(232, 235, 232);
+    border-radius: 15%;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+ 
+nav ul li a:hover {
+    color: rgb(223, 8, 8);
+    font-weight: bold;
+}
+#home{
+    margin-left: 50%;
+    margin-top: 13%;
+
+}
+#home h1{
+    font-size: 50px;
+    color: rgb(37, 5, 247);
+    margin-bottom: 20px;
+}
+span{
+    color: chocolate;
+}
+#home h3{
+    color:aliceblue;
+    line-height: 22px;
+
+}
+#home a{
+    background: rgb(233, 7, 7);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: azure;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+#bio{
+    width: 300px;
+    height: 300px;
+    bottom: 0;
+    left: 100px;
+}
+#bio img{
+    height: 100%;
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-5);
+    transition: bottom 1s, left 1s;
+
+}
+#bio{
+    position: absolute;
+    top: 200px;
+    border-radius: 5px;
+}
+#bio:hover .shape{
+    bottom: 40px;
+}
+img{
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+p{
+    padding-top: 40px;
+    color:antiquewhite;
+}
+#portfolio
+{
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 17%;
+    margin-bottom: 0%;
+    background-color:solid black ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(241, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#portfolio h4{
+    color: blue;
+}
+#portfolio h2,p{
+    color: rgba(234, 232, 232, 0.897);
+}
+hr{
+    width: 500px;
+    margin-bottom: 20px;
+}
+#portfolio h2{
+    padding-top: 70px;
+    color: rgb(243, 234, 234);
+
+
+}
+#portfolio #first{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: rgb(213, 207, 207);  
+}
+.port-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-centered;
+}
+.port-div h4{
+    color: white;
+    font-size: 25px;
+}
+.port-div p{
+    color: white;
+    padding-bottom: 50px;
+}
+.small-icon
+{
+    height:50px;
+    width: 50px;
+    padding-bottom: 12%;
+}
+.port-div article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+    margin: 20px 0px;
+    margin-right: 10px;
+}
+.port-div article p{
+    color: white;
+}
+.port-div article p,h2,img{
+    text-align: center;
+    padding: 20px 5px 0 5px;
+}
+
+
+
+
+.languageskill
+{
+    width: 30%;
+}
+.skill h4{
+    padding-bottom: 10%;
+    font-size: x-large;
+}
+
+
+.skill ul
+{
+    list-style: none;
+}
+progress
+{
+    height: 10px;
+    border-radius: 90%;
+    width: 120%;
+   
+}
+progress::-webkit-progress-value {background-color: rgb(32, 13, 237)}
+#skills
+{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8%;
+}
+#skills li{
+    color: aliceblue;
+}
+#skills h3{
+    color: aliceblue;
+}
+#skills ul{
+    list-style: none;
+    font-size: 1.5em;
+}
+#skills ul li{
+    margin: 10px 0px;
+}
+#skills h3
+{
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+.skill
+{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20%;
+}
+.abc p{
+    font-size: larger;
+}
+
+
+#contact
+{
+    color: rgb(67, 18, 213);
+    background-color: rgb(15, 14, 14);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#contact h2
+{
+    padding-top: 2%;    
+    padding-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-style:initial;
+}
+#contact p{
+    background: black;
+    color: rgb(245, 239, 238);
+    text-align:left;
+    padding: 1.5px;
+}
+
+
+
+
